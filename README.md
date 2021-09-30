@@ -1,55 +1,40 @@
-# Template para desenvolvimento e entrega de NAC
+# Explorando Python com OpenCV
 
-Esse é um guia simples, o grupo pode e deve modificar o template conforme necessidade. 
+Projeto apresentado a disciplina de Disruptive Architectures IOT e IA.
 
 # Nome do projeto
 
-**nome dos alunos:** 
+**Nome dos alunos:** <br>
+Giovanna Caroline Adorno
+<br>
+Gustavo Malvone
 
 **Turma:**
-
-**Ano:**
+2TDSA
 
 ## Objetivo / descrição do Projeto
 
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
+Esse é um projeto de reconhecimento de figuras baseado na cor das mesmas, foi utilizado como base circulos com a cor ciano e vermelho:
+<br>
+<img src="Rubricas 1 e 2/circulos.jpg" width="300">
 
-## Diagrama do projeto
-
-Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
-
-<img src="/imagem.jpg" width="550">
-
+As figuras serão segmentadas e contornadas, serão calculadas a área e o centro de massa da forma. Uma linha será trassada entre os dois centros da figura e trassando uma reta horizontal em relação a maior forma, então a linha passada entre as figuras e a reta simulando o eixo x, formarão um ângulo interno, que será calculado:
+<br>
+<img src="/projeto.png" width="300">
 
 ## Como usar 
 
-Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
+Para usar clone o projeto, o conteúdo da pasta Rubricas 1 e 2, pode ser inserido no Jupyter Notebooks ou Google Colabs, após inserir, apenas execute os Scripts.
 
-* Pode ser utilizado marcadores
-* Para ajudar na formatação
-
-Ou qualquer outra tabulação:
-
-- [x] Youtube
-- [ ] Facebook 
-- [x] Instagram
-
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
-
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
-    ls
-
+Para ver o funcionamento do projeto usando a sua webcam, acesse o conteudo da pasta Rubrica 3 e rode o programa usando o comando: python webcam.py
+Verifique se você possui no seu computador a biblioteca Python, caso não possua, faça o download: https://www.python.org/downloads/
 
 ## Link de vídeo demonstração
 
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
+Link do Vídeo de Demonstração:
+[Reconhecimento de imagens](https://www.youtube.com/watch?v=xva71wynxS0)
 
 
 ### Referências 
 
-* [mastering-markdown](https://guides.github.com/features/mastering-markdown/)
-* [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Open CV Doc](https://docs.opencv.org/master/dd/d49/tutorial_py_contour_features.html)
