@@ -32,7 +32,7 @@ Verifique se você possui no seu computador a biblioteca Python, caso não possu
 ## Link de vídeo demonstração
 
 Link do Vídeo de Demonstração:
-[Reconhecimento de imagens](https://www.youtube.com/watch?v=xva71wynxS0)
+[Reconhecimento de imagens](https://youtu.be/lmFETQJc9KI)
 
 
 ### Referências 
